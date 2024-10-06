@@ -1,0 +1,9 @@
+Perceptron:
+Base neural network.
+
+Single Layer percetron: 
+Inputs(X1) -> Weights(W1) -> Summation and bias(∑(WiXi) + bias) -> Activation -> Outputs,
+The weights can be used to manage output.
+Summation gives (x1w1 + x2w2 + x3w3 + b), b = bias
+Activation: Converts the input in desired output.
+Outputs if not as desired changes to bias and weights.

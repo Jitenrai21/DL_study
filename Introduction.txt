@@ -28,8 +28,9 @@ Data is tranferred to mind through Neurons in Human biology.
 Biological neuron : Dendrite(senses on skin) -> Cell nucleus -> Axon -> Synapses(connected to mind)
 
 Inputs(X1) -> Weights(W1) -> Summation and bias(∑(WiXi) + bias) -> Activation -> Outputs
+
 summation gives (x1w1 + x2w2 + x3w3 + b), b = bias
-Activation: Converts the output in desired form.
+Activation: Converts the input in desired output.
 
 Types of Deep learning:
 Perceptron
