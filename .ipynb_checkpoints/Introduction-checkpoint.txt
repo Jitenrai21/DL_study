@@ -1,0 +1,41 @@
+Deep Learning:
+It is a subpart of machine learning. 
+Used to solve problems in classification and regression of machine learning.
+(AI > ML > DL > Neural Network) intersects with data science.
+
+Deep Learning is a collection of statistical techniques of machine learning for learning feature hierarchies that are actually based on artificial neural networks.
+ML -> Algorithms(set of formula)
+DL -> Neural networks(connections forms networks)
+
+Neuron:
+Inputs(X1) -> Weights(W1) -> Summation and bias(∑(WiXi) + bias) -> Activation -> Outputs
+
+Application:
+voice commands
+Image recognition
+Automatic vehicles
+Translators
+
+Deep learning:
+a. Needs big data.
+b. Requires machines with GPU.
+c. Needs to understand the basic functionality of the data. While ML understands the features and how they represent the data.
+d. May take few hours or weeks to process and comparatively longer training time.
+e. Its consists few algorithms.
+
+Neurons:
+Data is tranferred to mind through Neurons in Human biology.
+Biological neuron : Dendrite(senses on skin) -> Cell nucleus -> Axon -> Synapses(connected to mind)
+
+Inputs(X1) -> Weights(W1) -> Summation and bias(∑(WiXi) + bias) -> Activation -> Outputs
+summation gives (x1w1 + x2w2 + x3w3 + b), b = bias
+Activation: Converts the output in desired form.
+
+Types of Deep learning:
+Perceptron
+Feed Forward networks(same as perceptron)
+Multi-Layer Perceptron(Artificial Neural Network)
+Radial Based Networks
+Convolutional Neural Networks
+Recurrent Neural Networks(Keyboards words suggestions)
+Long Short-Term Memory Networks
