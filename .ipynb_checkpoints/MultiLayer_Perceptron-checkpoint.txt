@@ -1,0 +1,14 @@
+Multi-layer Perceptron:
+In a non-linear separable data, single layer perceptron doesn't perform well.
+
+This is a single layer perceptron:
+Inputs(X1) -> Weights(W1) -> Summation and bias(∑(WiXi) + bias) -> Activation -> Outputs(Y)
+
+summation gives (x1w1 + x2w2 + x3w3 + b), b = bias
+Activation: Converts the input in desired output.
+
+Now, for multi layer:
+The Outputs from  multiple single layers(Yi) are taken as inputs.
+Inputs(Y1) -> Weights(W1) -> Summation and bias(∑(WiXi) + bias) -> Activation -> Outputs(Y)
+
+Using sigmoid in inputs of single layer perceptron gives outputs in binary and the binary for outputs cannot act as input for next perceptron. In this case the activation function in hidden layer is changed.
