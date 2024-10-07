@@ -1,0 +1,40 @@
+Forward Propagation:
+Input Layer -> Hidden Layer -> Output Layer
+
+Common activation functions:
+For Classification,
+Softmax, Sigmoid
+
+For Regression,
+Linear activation function
+
+# Relow activation functions in hidden layers
+
+ŷ = σ(W^T.X + b)
+
+Loss calculation:
+Difference between the predicted from original y.
+
+In regression:
+Mean Squared Error loss
+Mean absolute loss
+Root mean squared loss
+Hinge loss
+
+In classification:
+Log loss
+
+Loss minimized by techniques like Gradient Descent(loss function).
+
+Backward Propagation:
+Inaccurate initial weights and bais assigned. It is one important concepts of NN that classifies our data best. Updates the weights of parameters and bias.
+
+Use of gradient descent,
+For single layer perceptron,
+W(new) = W(old) - λ(dL/dW) where, λ is the learning rate
+This equation gives a curve in graph with loss in y-axis and weight in x-axis, this allows to determine the minimum loss and the corresponding perpendicular value of W, best weight for minimum loss.
+
+λ is the learning rate defines the step to draw the curve.(eg; values, 0.1-0.001)
+
+L = 1/n ∑(y-W1X1-W2X2-b)^2
+dL/dW1 = 1/n ∑(y-W1X1-W2X2-b)^2(-X1)

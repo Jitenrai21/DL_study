@@ -1,4 +1,4 @@
-Multi-layer Perceptron:
+Multi-layer Perceptron:(Artificial Neural Network ANN)
 In a non-linear separable data, single layer perceptron doesn't perform well.
 
 This is a single layer perceptron:
