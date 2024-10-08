@@ -1,0 +1,53 @@
+An Activation  function decides whether a neuron should be activated or not.
+Decides if the neuron's input to the network in important or not in the process of prediction using simpler mathematical operations.
+Eg, Activation function is used to decide the desired output in whether binary(0/1) form or regression (-∞ to ∞) form.
+
+Types:
+Binary step function
+Linear Activation function
+Non-linear activation function(most common and practical as real world data mostly donot follow linearity)
+
+Binary Step Function:
+Depends on threshold value that decides whether a neuron should be activated or not.
+eg, if positive 1, else 0
+y = x1w1 + x2w2 + b
+
+Linear Activation Function:
+The output of functions is not restricted in between any range. Range (-∞ to ∞)
+f(x) = x
+
+Non-linear Activation Function:(Non-linear and classification data)
+a. Sigmoid/Logistic Activation Function
+b. Tanh Function(Hyperbolic Tangent)
+c. ReLU Function
+d. Softmax Function
+
+a. Sigmoid/Logistic Activation Function
+Desired output is binary.
+f(x) = 1/1+e^-2
+It is a differentiable activation function that can be used in gradient descent. This allows the update in weights.
+This function isnot zero centered. Problem in warnes gradient descent.
+
+b. Tanh Function(Hyperbolic Tangent)
+In RNN, output lies in (-1,1)
+f(x) = (e^x - e^-x) / (e^x + e^-x)
+It is differentiable and zero centered.
+
+d. Softmax Function
+Desired output is categorical.
+softmax(z) = exp(z) / ∑exp(z)
+
+c. ReLU Function
+In hidden layer, linear activation function cannot be used because it triggers warnes gradient descent problem
+f(x) = max(0,x)
+It is differentiable and used in hidden layers.
+
+Few rules of choosing activation functions(based on prediction problem):
+Regression : Linear activation function
+Binary Classification : Sigmoid function
+Multiclass Classification : Softmax
+Multilabel Classification : Sigmoid
+
+The activation function used in hidden layers is typically chosen based on the type of neural network architecture.
+CNN : ReLU 
+RNN : Tanh and/or Sigmoid
