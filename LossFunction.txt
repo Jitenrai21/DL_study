@@ -1,0 +1,67 @@
+Loss Function:
+Difference between original and predicted output is loss. 
+In ML,
+y = mx + c i.e m and c are parameters.
+
+In DL,
+y = W1X1 + W2X2 +..+ b i.e W and B are parameters.
+Loss function gives the best parameters for minimum loss.
+
+Loss function and cost function:
+loss = (y-y(prd))^2 (this is for the single row of each output value)
+cost = mean of loss value of all the rows of the data.
+
+Loss function:
+Method of evaluating how well your algorithm is modelling your dataset. It is a mathematical function of the parameters of the machine learning algorithm.
+Regression:
+MSE (Mean Squared Error)
+MAE (Mean Absolute Error)
+Hubber Loss
+
+Classification:
+Binary cross-entropy
+Categorical cross-entropy
+
+Auto Encoder:
+KL Divergence
+
+GAN:
+Discriminator loss
+Minmax GAN loss
+
+Object detection:
+Focal loss
+
+Word embeddings:
+Triplet loss
+
+Regression loss:
+Mean Squared error/Squared loss/L2 loss:
+Used in linear regression or while using regression analysis in deep learning. It is differentiable. When back propagation, in gradient descent:
+W(new) = W(old) - λ(dL/dW)
+Differentiable because,
+No sharp points in graph.
+Gives a parabolic curvature while plotting, gives the minimum point easily and accurately.
+This method cannot be used in presence of outliers.
+
+Alternative:
+Mean Absolute Error:
+Instead of square it gives the modulus of loss.
+Gives a sharp corner point(when given zero it gives back zero) meaning non-differentiable.
+
+Huber Loss:
+In cases, if 30% data outlier, considerable data.
+
+Classification Loss:
+Binary Cross Entropy/Log Loss:
+Uses log, output in binary format.
+log loss = -1/N ∑ ((Yi.logŷi) + (1-yi)log(1-ŷi))
+when y = 0, -1/N ∑ log(1-ŷ)
+when y = 1, -1/N ∑ logŷ
+here, ∑ is limit i = 1 to N
+
+Categorical Cross Entropy:
+Loss = -∑yi.log(ŷi)
+here, ∑ is limit i = 1 to K i.e K is number of classes in the data
+It uses one-hot encoding.
+In cases of numerous parameters, sparse categorical cross-entropy which uses label encoding.
