@@ -15,4 +15,4 @@ Mini-Batch Gradient Descent
 Adagrad
 RMSProp
 AdaDelta
-Adam
+Adam(most common and popular choice)

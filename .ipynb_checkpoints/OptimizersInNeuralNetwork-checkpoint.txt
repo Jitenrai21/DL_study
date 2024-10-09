@@ -1,0 +1,18 @@
+Optimizers:
+Optimizers are algorithms or methods used to change the attributes of your neural network such as weights and learning rate in order to reduce the losses.
+
+In W-shaped curvatures in graph, there are local and global minima
+This causes trouble in gradient descent:
+The optimal weight gets stuck in local minima and to escape this case we use optimizer.
+W(new) = W(old) - λ(dL/dW) where, λ is the learning rate
+The learning rate here remains constant and the result stays in local minima, optimizers update the learning rate according to data.
+
+Types:
+Gradient Descent
+Stochastic Gradient Descent
+Stochastic Gradient Descent with momentum
+Mini-Batch Gradient Descent
+Adagrad
+RMSProp
+AdaDelta
+Adam(most common and popular choice)
