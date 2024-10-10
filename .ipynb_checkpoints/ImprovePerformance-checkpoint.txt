@@ -1,0 +1,33 @@
+To improve performance:
+Hyperparameters
+Vanishing / Exploding gradient
+Data
+Slow training
+Overfitting
+
+Hyperparameters:
+No. of hidden layers
+No. of nodes
+Activation Function
+Loss Function
+Optimizer(Adam is most popular choice)
+Batch size
+No. of epochs
+Learning rate(lamda)
+
+Vanishing / Exploding gradient:
+These problems occur in back propagation and can be tackled by changing in:
+Optimizers
+Initial weights
+Batch normalisation
+
+Data:
+While building neural network, large no. of data is necessary.
+To create large data, we can use transfer learning.
+
+Slow training
+
+Overfitting:
+L1 and L2 regularization
+Early stopping
+Batch normalisation
