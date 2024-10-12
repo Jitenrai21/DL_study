@@ -1,0 +1,13 @@
+The vanishing gradient problem occurs when training artificial neural networks with gradient-based learning methods and backpropagation.
+During each iteration of training each of the neural network's weights recieves an update proportional to the partial derivative of the error function with respect to the current weight.
+0.1 * 0.1 * 0.1 = 0.001 thus, very small changes in weight updates. This is the vanishing gradient problem.
+
+This occurs when:
+a. Working on Deep NN. This means number of hidden layer is high. High number of features.
+b. Activation function in hidden layer like Sigmoid and TanH. These functions give output between zeros and one.
+
+Methods to remove:
+Do not use these functions in hidden layer rather choose relu activation function.Non-saturated activation function.
+Weights initialization should be self done. Proper weight initialization.
+Batch normalization.
+Gradient clipping
