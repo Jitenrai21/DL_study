@@ -1,0 +1,16 @@
+CNN is a type of artificial neural network which is widely used for image/object recognition and classification. Deep learning recognizes objects in an image by using a CNN.
+
+How it works:
+The image is first sent to convolutional layer. This layer detects the most important features or edges from the images, helps to read the image properply.
+The data from convolutional layer is quite heavy and cannot be used directly for prediction. The images created in convolutional layer is quite heavy and this can lead to system crashes.
+The convolutional layer images are compressed in pooling layer.
+The data is processed back and forth in the two layers, conv and pool. It extracts the most important features and applicable.
+The network is then connected to Fully Conv. layer, which is a ANN network. This is where the prediction or classification system is formed.
+The data that reaches the ANN is in tabular data format where for Conv. it is in image format.
+In a colorful image: We have 3 colour channel as;
+r (red): 0-255, g(green), b(blue)
+and the pixels changes increase as 1024*1024*3
+In black and white only one channel that ranges from 0-255.
+
+Convolution -> Max pooling -> Flattening -> Full Convolution
+Flattening: The colour channel image is in matrice format and is converted into a single row(network) by flattening.
