@@ -1,0 +1,32 @@
+Convolutional layer:
+First stage of image classification. 
+In maths, convolution is a mathematical operation on two function that produces a third function that expresses how the shape of one is modified by the other.
+c = (f*g)(t) = ∫f(r)g(t-r)dr
+
+c = convolution output function
+f = original input function
+g = function that is shifted over the input function
+t = variable representing range of shifting
+r = shifting against t
+∫ = limit zero to t
+
+In conv layer the imp features or edges are detected 
+input data -> kernel -> convoluted feature
+
+100      101   
+110      010
+111      101
+input    kernel
+
+for convoluted feature,
+1*1=1
+0*0=0
+0*1=0
+1*0=0
+1*1=1
+0*0=0
+1*1=1
+1*0=0
+1*1=1
++
+   =4
