@@ -1,0 +1,18 @@
+Pooling layer:
+A pooling layer is another building block in CNN. Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network.
+Feature map   (max pooling)->   pooling feature map
+
+The initial size of the image is quite bulky,
+Dimensionality reduction : It means the removing of as much features as possible while preserving the meaning of the model.
+The pooling layer enhances the selected edges as alot of features are dropped.
+eg, (250*250)*10*3
+250*250 = image size(pixels)
+10 is the convolution
+3 is the color channel.
+This value is given to x-axis, excessive memory usage.
+
+Types:
+Max pooling
+Avg pooling
+
+Live pooling examples can be checked in deeplizard.com 
